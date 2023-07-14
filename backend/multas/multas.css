@@ -1,0 +1,38 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'oswald', sans-serif;
+  background: rgba(241, 241, 241, 0.616);
+}
+.navbar ul{
+  display: flex;
+  justify-content: center;
+}
+.menu-color{
+  background-color: rgb(0, 156, 161);
+}
+h1{
+  font-size: 50px;
+  font-weight: 800;
+}
+.card {
+  background: rgb(0, 156, 161);
+}
+.my-popup{
+  right: 20% !important;
+}
+.swal2-center-end{
+  margin-right: 15%;
+  text-align: center !important;
+}
+/* .swal2-container{
+  left:70% !important;
+} */
+.titulo{
+  font-size: 20px;
+  font-family: 'oswald';
+  text-align: center;
+}

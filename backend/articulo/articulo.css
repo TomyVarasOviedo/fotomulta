@@ -1,0 +1,4 @@
+textarea{
+    min-height: 120px !important;
+    max-height: 150px;
+}

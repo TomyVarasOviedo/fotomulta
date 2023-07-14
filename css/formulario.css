@@ -1,0 +1,23 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root{
+  --color-primary: rgb(0, 156, 161);
+  --color-secundario: rgb(0, 69, 126);
+  --color-primary-oscuro: rgb(24, 50, 153);
+}
+h1{
+  font-size: 40px;
+}
+button{
+  color: #fff;
+  background: var(--color-primary) !important;
+}
+.imagen{
+  width: 100%;
+  height: 80px;
+  padding: 0 100px 0 100px;
+  background: var(--color-primary);
+}

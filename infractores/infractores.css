@@ -1,0 +1,33 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+nav{
+    background: rgb(0, 156, 161);
+}
+#map{
+    width: 100%;
+    height: 400px;
+    max-height: 450px;
+    padding: 15px;
+    display: flex;
+}
+#map .ol-overlaycontainer-stopevent .ol-attribution{
+    display: none;
+}
+#resultadoUsuario{
+    opacity: 0;
+    display: none;
+    background-color: darkgray;
+}
+.active{
+    display: flex;
+    opacity: 1 !important;
+    transition: all 1s ease;
+}
+.desaparecer{
+    display: none;
+    opacity: 0;
+    transition: all 1s ease-in;
+}

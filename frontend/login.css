@@ -1,0 +1,192 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'oswald';
+    font-size: 15px;
+}
+:root{
+    --color-primary: rgb(0, 156, 161);
+    --color-secundario: rgb(0, 69, 126);
+    --color-primary-oscuro: rgb(24, 50, 153);
+}
+a, a:hover{text-decoration: none !important;}
+li{list-style: none;}
+button{
+    color: #fff !important;
+    background: var(--color-primary) !important;
+}
+textarea{max-height: 90px;}
+nav{
+    background: var(--color-primary);  
+    position: fixed !important;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    justify-content: center !important;
+    width: 100%;
+    height: 70px; 
+}
+.toggle{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+nav i{
+    margin: 10px 10px;
+    font-size: 2.6em;
+}
+nav .sidebar{
+    width: 90%;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    transform: translateX(-100%);
+    text-align: left;
+    transition: transform 0.4s ease-in-out;
+    background: var(--color-primary);
+}
+.menu-active{transform: translateX(0%) !important;}
+nav .sidebar .menu-header{
+    width: 100%;
+    height: 130px;
+    display: flex;
+    justify-content: space-around;
+    color: #fff;
+    padding: 10px;
+    align-items: center;
+    background: var(--color-secundario);
+}
+nav .sidebar .menu-header button{
+    margin: 20px 10px;
+    padding: 15px 15px;
+    border: none;
+    border-radius: 100%;
+}
+nav .sidebar .menu-header button i{font-size: 2.5em;}
+nav ul{
+    padding: 25px 0 0 20px;
+    display: flex;
+    flex-direction: column;
+}
+nav ul li a{
+    font-size: 1.9em;
+    color: #fff;
+}
+.navbar-bottom{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+    width: 100%;
+    height: 80px;
+    background-color: var(--color-primary);
+}
+.navbar-bottom ul{
+    margin:0 25px 0 0;
+    display: flex;
+    justify-content: space-between;
+}
+.navbar-bottom ul li i{
+    margin: 20px 0px;
+    font-size: 3.4em;
+    color: #fff;
+}
+section{
+    width: 100%;
+    height: 100vh;
+    margin-top: 60px;
+    padding:40px;
+}
+#inicio h1{font-size: 2.2em;}
+#inicio button{
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    background: var(--color-primary);
+}
+section .multa-count{
+    padding: 40px;
+    background: var(--color-primary);
+}
+section .multa-count h3{
+    font-size: 3.8em;
+    font-weight: 900;
+}
+#ingresar{padding: 40px 10px;}
+#ingresar button i{font-size: 2.2em;}
+#ingresar h1{
+    font-size: 2.2em;
+}
+.container-input {
+    text-align: center;
+    background:var(--color-primary);
+    border-radius: 6px;
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.inputfile {
+    width: 0.1px;
+    height: 0.1px;
+    opacity: 0;
+    overflow: hidden;
+    position: absolute;
+    z-index: -1;
+}
+
+.inputfile + label {
+    max-width: 100%;
+    font-size: 1.25em;
+    font-weight: 700;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    cursor: pointer;
+    display: inline-block;
+    overflow: hidden;
+    padding: 0.625rem 1.25rem;
+}
+
+.inputfile + label i {
+    width: 1em;
+    height: 1em;
+    vertical-align: middle;
+    fill: currentColor;
+    font-size: 1.6em;
+}
+
+.iborrainputfile {
+	font-size: 2.2em; 
+	font-weight:normal;
+	font-family: 'Lato';
+}
+.inputfile-1 + label {
+    padding: 5px 0;
+    width: 100%;
+    color: #fff;
+}
+#buscar{padding: 40px 0px;}
+#buscar .input-group span{
+    border-radius: 0 10px 10px 0;
+    background: var(--color-primary);
+}
+#mapa{
+    padding: 70px 0px;
+    height: 100vh;
+}
+#mapa #map{
+    width: 100%;
+    height: 400px;
+    max-height: 450px;
+    padding: 15px;
+    display: flex;
+}
+#mapa #map .ol-overlaycontainer-stopevent .ol-attribution{
+    display: none;
+}
+.popup-titulo{
+    text-transform: uppercase;
+}
