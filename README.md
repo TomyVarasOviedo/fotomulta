@@ -14,3 +14,14 @@
 > - Azul Petrocelli
 > - Tomas Varas Oviedo
 > - Profesor: Gaston Pieroni
+# Probar el sistema
+> Para ingresar al formulario: [`Click Aqui`](https://proyecto-multa.000webhostapp.com/)
+> 
+> `USUARIO DE PRUEBA COMO AGENTE: `
+>  - DNI: 1
+>  - Contraseña: 1234
+> 
+> `USUARIO DE PRUEBA COMO ADMINISTRADOR: ` 
+>  - DNI: 2
+>  - Contraseña: 12345
+> 
